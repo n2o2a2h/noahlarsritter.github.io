@@ -1,64 +1,40 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
-
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Noah Lars Ritter
+email: nlritter96@gmail.com
+description: "The creative portfolio of Noah Lars Ritter — filmmaker, artist, and photographer. Explore visual stories through film, art, and travel."
+url: "https://noahlarsritter.com"
+baseurl: ""
 
-
-# Team names, titles and social links
+# Team section (you as the main creator)
 people:
-- name: Kay Garland
+- name: Noah Lars Ritter
   pic: 1
-  position: Lead Designer
+  position: Filmmaker & Visual Artist
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: instagram
+      url: https://instagram.com/_noahritter_
+    - title: youtube
+      url: https://youtube.com/@noahlritter?si=iwS3g2pEPUWV1Txn
+    - title: github
+      url: https://github.com/noahlarsritter
+    - title: email
+      url: mailto:nlritter96@gmail.com
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social links (appear in header/footer depending on theme)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: instagram
+    url: https://instagram.com/_noahritter_
+  - title: youtube
+    url: https://youtube.com/@noahlritter?si=iwS3g2pEPUWV1Txn
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/noahlarsritter
+  - title: email
+    url: mailto:nlritter96@gmail.com
 
-# Postal address (add as many lines as necessary)
+# Postal address (optional)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Based in the United States
+  - line: Available for international projects
 
 # Build settings
 markdown: kramdown
