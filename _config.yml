@@ -1,23 +1,2 @@
-title: Noah Lars Ritter
-email: nlritter96@gmail.com
-description: "The creative portfolio of Noah Lars Ritter — filmmaker, artist, and photographer."
 url: "https://noahlarsritter.com"
-baseurl: ""
-
-# Use the official Agency Jekyll theme
-remote_theme: y7kim/agency-jekyll-theme
-
-# Personal links
-social:
-  - title: instagram
-    url: https://instagram.com/_noahritter_
-  - title: youtube
-    url: https://youtube.com/@noahlritter?si=iwS3g2pEPUWV1Txn
-  - title: github
-    url: https://github.com/noahlarsritter
-  - title: email
-    url: mailto:nlritter96@gmail.com
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+baseurl: ""   
