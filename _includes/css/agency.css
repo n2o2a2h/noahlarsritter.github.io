@@ -870,3 +870,10 @@ body {
     color: #333 !important;   /* dark grey */
     opacity: 1 !important;
 }
+/* FORCE darker text for Portfolio section */
+#portfolio p,
+#portfolio .text-muted,
+#portfolio .section-subheading {
+    color: #333 !important;
+    opacity: 1 !important;
+}
