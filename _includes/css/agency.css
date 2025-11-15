@@ -865,3 +865,8 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #0d1b2a;
 }
+/* Darken Services bios so they are readable on white */
+#services .text-muted {
+    color: #333 !important;   /* dark grey */
+    opacity: 1 !important;
+}
