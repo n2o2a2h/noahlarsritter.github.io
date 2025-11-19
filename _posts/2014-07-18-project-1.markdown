@@ -4,7 +4,7 @@ subtitle: Directed by Jillian Wallace
 layout: default
 modal-id: 1
 date: 2024
-img: dreams.png
+img: dreams-thumbnail.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: August 2024
