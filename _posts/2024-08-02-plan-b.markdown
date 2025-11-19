@@ -1,0 +1,14 @@
+---
+title: Plan B
+subtitle: Directed by Jillian Wallace
+layout: default
+modal-id: 1
+date: 2024-08-01
+img: PlanBFinalPoster.jpg
+thumbnail: PlanBFinalPoster.jpg
+alt: Plan B Poster
+project-date: August 2024
+client: Start Bootstrap
+category: Short Film
+description: "Director: Jillian Wallace, DP: Edmund Tyler, Assistant Director: Noah Lars Ritter, Producer: Abby Gardner, Production Design: Abbie Menard and Allie Keene, Editors: Edmund Tyler and Abbie Menard, Written By: Noah Lars Ritter, Jillian Wallace, Edmund Tyler, Abby Gardner, Abbie Menard, and Allie Keene."
+---
