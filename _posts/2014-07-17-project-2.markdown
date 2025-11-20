@@ -1,6 +1,6 @@
 ---
 title: Filmography
-subtitle: A collection of short films I've created over the years.
+subtitle: A collection of short films.
 layout: default
 modal-id: 2
 date: 2024-07-17
