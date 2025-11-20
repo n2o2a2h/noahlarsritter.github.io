@@ -10,5 +10,28 @@ alt: Plan B Poster
 project-date: August 2024
 client: Start Bootstrap
 category: Short Film
-description: "Director: Jillian Wallace, DP: Edmund Tyler, Assistant Director: Noah Lars Ritter, Producer: Abby Gardner, Production Design: Abbie Menard and Allie Keene, Editors: Edmund Tyler and Abbie Menard, Written By: Noah Lars Ritter, Jillian Wallace, Edmund Tyler, Abby Gardner, Abbie Menard, and Allie Keene."
+description: |
+When a positive pregnancy test derails her life, a single woman and her childhood best friend - who harbors a secret of her own - face a difficult decision in an increasingly restrictive U.S.A.
+
+CW: This film covers the topic of abortion which may be distressing to some viewers. 
+
+Film created by: Jillian Wallace, Noah Ritter, Abby Gardner, Edmund Tyler, Abbie Menard, and Allie Keene. Based on the story by Emily M. Goldberg.
+
+Music:
+Mending by Hanna Lindgren
+Black Tern by Lotus
+Japa Waves by Lotus
+It Gets Better by Sayuri Hayashi Egnell
+
+Special thanks to the University of Denver MFJS department.
+  <br><br>
+
+  <!-- Embedded YouTube Video -->
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/vtx4KQCoX8M"
+    title="Plan B Film"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 ---
