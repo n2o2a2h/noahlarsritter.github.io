@@ -6,7 +6,6 @@ modal-id: 2
 date: 2024-07-17
 img: filmography-poster.jpg
 thumbnail: filmography-thumbnail.jpg
-alt: Filmography Preview
 project-date: 2022–2024
 category: Film
 description: |
