@@ -11,19 +11,20 @@ project-date: August 2024
 client: Start Bootstrap
 category: Short Film
 description: |
-When a positive pregnancy test derails her life, a single woman and her childhood best friend - who harbors a secret of her own - face a difficult decision in an increasingly restrictive U.S.A.
+  When a positive pregnancy test derails her life, a single woman and her childhood best friend - who harbors a secret of her own - face a difficult decision in an increasingly restrictive U.S.A.
 
-CW: This film covers the topic of abortion which may be distressing to some viewers. 
+  CW: This film covers the topic of abortion which may be distressing to some viewers. 
 
-Film created by: Jillian Wallace, Noah Ritter, Abby Gardner, Edmund Tyler, Abbie Menard, and Allie Keene. Based on the story by Emily M. Goldberg.
+  Film created by: Jillian Wallace, Noah Ritter, Abby Gardner, Edmund Tyler, Abbie Menard, and Allie Keene. Based on the story by Emily M. Goldberg.
 
-Music:
-Mending by Hanna Lindgren
-Black Tern by Lotus
-Japa Waves by Lotus
-It Gets Better by Sayuri Hayashi Egnell
+  Music:
+  Mending by Hanna Lindgren  
+  Black Tern by Lotus  
+  Japa Waves by Lotus  
+  It Gets Better by Sayuri Hayashi Egnell  
 
-Special thanks to the University of Denver MFJS department.
+  Special thanks to the University of Denver MFJS department.
+
   <br><br>
 
   <!-- Embedded YouTube Video -->
