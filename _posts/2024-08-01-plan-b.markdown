@@ -10,22 +10,23 @@ alt: Plan B Poster
 project-date: August 2024
 category: Short Film
 description: |
-  **Logline:**  
+  Logline:  
   When a positive pregnancy test derails her life, a single woman and her childhood best friend—who harbors a secret of her own—face a difficult decision in an increasingly restrictive U.S.A.
 
   <br>
 
-  **CW:** This film covers the topic of abortion which may be distressing to some viewers. 
+  CW:  
+  This film covers the topic of abortion which may be distressing to some viewers.
 
   <br>
 
-  **Film Created By:**  
+  Film Created By:  
   Jillian Wallace, Noah Ritter, Abby Gardner, Edmund Tyler, Abbie Menard, and Allie Keene.  
   Based on the story by Emily M. Goldberg.
 
   <br>
 
-  **Music:**  
+  Music:  
   Mending — Hanna Lindgren  
   Black Tern — Lotus  
   Japa Waves — Lotus  
@@ -37,7 +38,6 @@ description: |
 
   <br><br>
 
-  <!-- Embedded YouTube Video -->
   <iframe width="560" height="315"
     src="https://www.youtube.com/embed/vtx4KQCoX8M"
     title="Plan B Film"
