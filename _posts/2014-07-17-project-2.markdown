@@ -10,72 +10,72 @@ alt: Filmography Preview
 project-date: 2022–2024
 category: Film
 description: |
-  A curated selection of my short films from 2022–2024, created for classes, workshops, and creative experiments.
+  A curated selection of my short films 
+  
+  <br>
+
+  ## **Thing's Aren't Always As They Seem**  
+  **Date:** March 18th, 2022  
+  **Caption:** Six Word, Six Shot Short-Film, made by Noah Ritter.
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/tqFS2bqqzJM"
+    title="Thing's Aren't Always As They Seem"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+  <br><br>
+
+  ## **The Interrogation**  
+  **Date:** February 5th, 2024  
+  **Caption:** A student short-film made by Noah Ritter, Dmitri Scal, and Owen DeStefano.
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/L6BPrh_mTrw"
+    title="The Interrogation"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+  <br><br>
+
+  ## **Chase Scene**  
+  **Date:** March 9th, 2024  
+  **Caption:** A student short-film made by Noah Ritter, Mills Coleman, and Sophia Holt.
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/ZFUjfWuedIc"
+    title="Chase Scene"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+  <br><br>
+
+  ## **The Lighthouse**  
+  **Date:** March 14th, 2024  
+  **Caption:** A recreation of a scene from Robert Eggers’ *The Lighthouse*, created by Noah Ritter and Edmund Tyler.
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/TmMoJ9tl8HY"
+    title="The Lighthouse Recreation"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+  <br><br>
+
+  ## **Clue-less**  
+  **Date:** March 18th, 2024  
+  **Caption:** A short film made by Noah Ritter, Kailey Aponte, and Abby Gardner.
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/wpUd1Yqbwa4"
+    title="Clue-less"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+  <br><br>
 ---
-
-<br>
-
-## **Thing's Aren't Always As They Seem**  
-**Date:** March 18th, 2022  
-**Caption:** Six Word, Six Shot Short-Film, made by Noah Ritter.
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/tqFS2bqqzJM"
-  title="Thing's Aren't Always As They Seem"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
-
-<br><br>
-
-## **The Interrogation**  
-**Date:** February 5th, 2024  
-**Caption:** A student short-film made by Noah Ritter, Dmitri Scal, and Owen DeStefano.
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/L6BPrh_mTrw"
-  title="The Interrogation"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
-
-<br><br>
-
-## **Chase Scene**  
-**Date:** March 9th, 2024  
-**Caption:** A student short-film made by Noah Ritter, Mills Coleman, and Sophia Holt.
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/ZFUjfWuedIc"
-  title="Chase Scene"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
-
-<br><br>
-
-## **The Lighthouse**  
-**Date:** March 14th, 2024  
-**Caption:** A recreation of a scene from Robert Eggers’ *The Lighthouse*, created by Noah Ritter and Edmund Tyler.
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/TmMoJ9tl8HY"
-  title="The Lighthouse Recreation"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
-
-<br><br>
-
-## **Clue-less**  
-**Date:** March 18th, 2024  
-**Caption:** A short film made by Noah Ritter, Kailey Aponte, and Abby Gardner.
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/wpUd1Yqbwa4"
-  title="Clue-less"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
-
-<br><br>
