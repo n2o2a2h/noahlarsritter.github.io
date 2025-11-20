@@ -10,72 +10,135 @@ alt: Filmography Preview
 project-date: 2022–2024
 category: Film
 description: |
-  A curated selection of my short films 
 
-  <br>
+  <style>
+    .film-entry {
+      margin-bottom: 60px;
+      text-align: center;
+    }
 
-  Things Aren't Always As They Seem  
-  Date: March 18th, 2022  
-  Caption: Six Word, Six Shot Short-Film, made by Noah Ritter.
+    .film-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #0A1A2F;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+    }
 
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/tqFS2bqqzJM"
-    title="Thing's Aren't Always As They Seem"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+    .film-video {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
 
+    .film-description {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      color: #333;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+  </style>
+
+  A curated selection of my short films  
   <br><br>
 
-  The Interrogation  
-  Date: February 5th, 2024  
-  Caption: A student short-film made by Noah Ritter, Dmitri Scal, and Owen DeStefano.
+  <!-- FILM 1 -->
+  <div class="film-entry">
+    <div class="film-title">Things Aren't Always As They Seem</div>
 
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/L6BPrh_mTrw"
-    title="The Interrogation"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+    <div class="film-video">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/tqFS2bqqzJM"
+        title="Things Aren't Always As They Seem"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
 
-  <br><br>
+    <div class="film-description">
+      <strong>Date:</strong> March 18th, 2022<br>
+      Six Word, Six Shot Short-Film — created by Noah Ritter.
+    </div>
+  </div>
 
-  Chase Scene  
-  Date: March 9th, 2024  
-  Caption: A student short-film made by Noah Ritter, Mills Coleman, and Sophia Holt.
+  <!-- FILM 2 -->
+  <div class="film-entry">
+    <div class="film-title">The Interrogation</div>
 
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/ZFUjfWuedIc"
-    title="Chase Scene"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+    <div class="film-video">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/L6BPrh_mTrw"
+        title="The Interrogation"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
 
-  <br><br>
+    <div class="film-description">
+      <strong>Date:</strong> February 5th, 2024<br>
+      A student short-film by Noah Ritter, Dmitri Scal, and Owen DeStefano.
+    </div>
+  </div>
 
-  The Lighthouse  
-  Date: March 14th, 2024  
-  Caption: A recreation of a scene from Robert Eggers’ The Lighthouse, created by Noah Ritter and Edmund Tyler.
+  <!-- FILM 3 -->
+  <div class="film-entry">
+    <div class="film-title">Chase Scene</div>
 
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/TmMoJ9tl8HY"
-    title="The Lighthouse Recreation"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+    <div class="film-video">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/ZFUjfWuedIc"
+        title="Chase Scene"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
 
-  <br><br>
+    <div class="film-description">
+      <strong>Date:</strong> March 9th, 2024<br>
+      A short film by Noah Ritter, Mills Coleman, and Sophia Holt.
+    </div>
+  </div>
 
-  Clue-less  
-  Date: March 18th, 2024  
-  Caption: A short film made by Noah Ritter, Kailey Aponte, and Abby Gardner.
+  <!-- FILM 4 -->
+  <div class="film-entry">
+    <div class="film-title">The Lighthouse</div>
 
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/wpUd1Yqbwa4"
-    title="Clue-less"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+    <div class="film-video">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/TmMoJ9tl8HY"
+        title="The Lighthouse Recreation"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
 
-  <br><br>
+    <div class="film-description">
+      <strong>Date:</strong> March 14th, 2024<br>
+      A recreation of a scene from Robert Eggers’ *The Lighthouse*, created by Noah Ritter and Edmund Tyler.
+    </div>
+  </div>
+
+  <!-- FILM 5 -->
+  <div class="film-entry">
+    <div class="film-title">Clue-less</div>
+
+    <div class="film-video">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/wpUd1Yqbwa4"
+        title="Clue-less"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <div class="film-description">
+      <strong>Date:</strong> March 18th, 2024<br>
+      A short film by Noah Ritter, Kailey Aponte, and Abby Gardner.
+    </div>
+  </div>
+
 ---
