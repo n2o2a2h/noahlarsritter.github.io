@@ -1,6 +1,6 @@
 ---
 title: Plan B
-subtitle: Directed by Jillian Wallace
+subtitle: A short-film directed by Jillian Wallace
 layout: default
 modal-id: 1
 date: 2024-08-01
