@@ -5,7 +5,7 @@ layout: default
 modal-id: 1
 date: 2024-08-01
 img: PlanBFinalPoster.jpg
-thumbnail: img/team/film2.jpg
+thumbnail: img/portfolio/film2.jpg
 alt: Plan B Poster
 project-date: August 2024
 client: Start Bootstrap
