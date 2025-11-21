@@ -19,9 +19,10 @@
                         </div>
 
                         <!-- Thumbnail with fixed, uniform size -->
-                        <img 
+                        <div style="width: 100%; aspect-ratio: 3 / 2; overflow: hidden; border-radius: 6px;">
+                        <post img 
                             src="img/portfolio/{{ post.thumbnail }}" 
-                            class="img-responsive img-centered"
+                            class="img-responsive img-centered" 
                             style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px;"
                             alt="{{ post.alt }}">
                     </a>
