@@ -57,7 +57,7 @@ description: |
 
   <div class="script-container">
     <div class="script-title">Plan B</div>
-    <div class="photo-subheader">Written By Edmund Tyler, Noah Ritter, Jillian Wallace, Abby Gardener, Abbie Menard, and Allie Keene</div>
+    <div class="photo-subheader">Written By: Edmund Tyler, Noah Ritter, Jillian Wallace, Abby Gardener, Abbie Menard, and Allie Keene</div>
 
     <a class="script-button" href="img/scripts/planb.pdf" target="_blank">Open Full PDF</a>
 
@@ -70,7 +70,7 @@ description: |
 
   <div class="script-container">
     <div class="script-title">Discovering Orange and Green</div>
-    <div class="photo-subheader">Written By Noah Lars Ritter</div>
+    <div class="photo-subheader">Written By: Noah Lars Ritter</div>
 
     <a class="script-button" href="img/scripts/discovering.pdf" target="_blank">Open Full PDF</a>
 
