@@ -114,7 +114,7 @@ description: |
 
     <div class="film-description">
       <strong>Date:</strong> March 14th, 2024<br>
-      A recreation of a scene from Robert Eggers’ *The Lighthouse*, created by Noah Ritter and Edmund Tyler.
+      A recreation of scene 79 from Robert Eggers’ The Lighthouse, created by Noah Ritter and Edmund Tyler.
     </div>
   </div>
 
