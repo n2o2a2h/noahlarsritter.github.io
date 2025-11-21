@@ -166,11 +166,11 @@ description: |
         <div class="photo-caption">Statues</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/portfolio/artwork4.jpeg" alt="">
+        <img src="img/portfolio/artwork4.jpeg" alt="">
         <div class="photo-caption">Charcoal</div>
       </div>
       <div class="photo-item">
-        <img src="img/portfolio/artwork2.jpg" alt="">
+        <img src="img/portfolio/artwork2.jpeg" alt="">
         <div class="photo-caption">Mixed Materials</div>
       </div>
     </div>
@@ -179,7 +179,7 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/artwork1.jpeg" alt="">
-        <div class="photo-caption">Mixed Material</div>
+        <div class="photo-caption">Mixed Materials</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/artwork5.jpg" alt="">
