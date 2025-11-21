@@ -76,32 +76,36 @@ description: |
   <div class="photo-group">
     <div class="photo-header">Graphic Design</div>
 
-    <!-- Magazine Design -->
+    <!-- Magazine Designs -->
     <div class="photo-subheader">Branding Project</div>
     <div class="photo-row">
       <div class="photo-item">
-        <img src="img/artwork/branding1.jpg" alt="">
+        <img src="img/portfolio/graphicdesign1.pdf" alt="">
         <div class="photo-caption">Logo Concept v1</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/branding2.jpg" alt="">
+        <img src="img/portfolio/graphicdesign2.pdf" alt="">
         <div class="photo-caption">Color Variations</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/branding3.jpg" alt="">
+        <img src="img/portfolio/graphicdesign3.pdf" alt="">
         <div class="photo-caption">Final Mark</div>
       </div>
     </div>
 
-    <!-- Other Project -->
+    <!-- Kafkaesque -->
     <div class="photo-subheader">Poster Design</div>
     <div class="photo-row">
       <div class="photo-item">
-        <img src="img/artwork/poster1.jpg" alt="">
+        <img src="img/portfolio/kafka1.jpg" alt="">
         <div class="photo-caption">Festival Poster</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/poster2.jpg" alt="">
+        <img src="img/artwork/kafka2.jpg" alt="">
+        <div class="photo-caption">Minimal Layout</div>
+      </div>
+     <div class="photo-item">
+        <img src="img/artwork/kafka3.jpg" alt="">
         <div class="photo-caption">Minimal Layout</div>
       </div>
     </div>
@@ -114,43 +118,59 @@ description: |
   <div class="photo-group">
     <div class="photo-header">Digital Artwork & Animation</div>
 
+  <!-- Concept Art for an Author's Novel -->
     <div class="photo-subheader">3D Rendering</div>
     <div class="photo-row">
       <div class="photo-item">
-        <img src="img/artwork/3d1.jpg" alt="">
+        <img src="img/portfolio/katiebook1.jpg" alt="">
         <div class="photo-caption">Sci-Fi Corridor</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/3d2.jpg" alt="">
+        <img src="img/portfolio/katiebook2.jpg" alt="">
         <div class="photo-caption">Character Model</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/3d3.jpg" alt="">
+        <img src="img/portfolio/katiebook3.jpg" alt="">
         <div class="photo-caption">Environment Render</div>
       </div>
     </div>
-
-    <div class="photo-subheader">2D Digital Painting</div>
+ 
+  <!-- Concept Art for an Animation Project -->
+<div class="photo-subheader">Animation Frames</div>
     <div class="photo-row">
       <div class="photo-item">
-        <img src="img/artwork/digital1.jpg" alt="">
-        <div class="photo-caption">Forest Spirit</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/artwork/digital2.jpg" alt="">
-        <div class="photo-caption">City at Dusk</div>
-      </div>
-    </div>
-
-    <div class="photo-subheader">Animation Frames</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/artwork/anim1.jpg" alt="">
+        <img src="img/portfolio/artworkmonkey1.jpg" alt="">
         <div class="photo-caption">Key Frame</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/anim2.jpg" alt="">
+        <img src="img/portfolio/artworkmonkey2.jpg" alt="">
         <div class="photo-caption">Motion Study</div>
+      </div>
+    </div>
+     <div class="photo-item">
+        <img src="img/portfolio/artworkmonkey3.jpg" alt="">
+        <div class="photo-caption">Motion Study</div>
+     </div>
+    </div>
+     <div class="photo-item">
+        <img src="img/portfolio/artworkmonkey4.jpg" alt="">
+        <div class="photo-caption">Motion Study</div> 
+        
+
+ <!-- Other Digital Artwork --> 
+          <div class="photo-subheader">3D Rendering</div>
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/katiebook1.jpg" alt="">
+        <div class="photo-caption">Sci-Fi Corridor</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/katiebook2.jpg" alt="">
+        <div class="photo-caption">Character Model</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/katiebook3.jpg" alt="">
+        <div class="photo-caption">Environment Render</div>
       </div>
     </div>
   </div>
