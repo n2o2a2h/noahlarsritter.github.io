@@ -43,8 +43,9 @@ description: |
   </style>
 
   A curated selection of my short films  
-  <br><br>
-
+    </div>
+  </div>
+  
   <!-- FILM 1 -->
   <div class="film-entry">
     <div class="film-title">Things Aren't Always As They Seem</div>
@@ -60,7 +61,7 @@ description: |
 
     <div class="film-description">
       <strong>Date:</strong> March 18th, 2022<br>
-      Six Word, Six Shot Short-Film — created by Noah Ritter.
+      Six Word, Six Shot Short-Film — Made by Noah Ritter.
     </div>
   </div>
 
