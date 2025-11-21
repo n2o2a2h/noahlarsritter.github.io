@@ -71,19 +71,19 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo4.jpg" alt="">
-        <div class="photo-caption">Morning fog over ancient terraces</div>
+        <div class="photo-caption">Overlooking Alpaca</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo5.jpg" alt="">
-        <div class="photo-caption">Trail overlooking the valley</div>
+        <div class="photo-caption">Mist Rising</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo6.jpg" alt="">
-        <div class="photo-caption">Clouds rolling across the mountains</div>
+        <div class="photo-caption">Clouds and Mountains</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo15.jpg" alt="">
-        <div class="photo-caption">A lone tree against dramatic skies</div>
+        <div class="photo-caption">The Lone Tree</div>
       </div>
     </div>
   </div>
@@ -94,15 +94,15 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo14.jpg" alt="">
-        <div class="photo-caption">Forest canopy near Tijuca</div>
+        <div class="photo-caption">Green River</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo17.jpg" alt="">
-        <div class="photo-caption">Overlook on the mountainside</div>
+        <div class="photo-caption">Jumping Monkey</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo16.jpg" alt="">
-        <div class="photo-caption">Blue waters and cliffs</div>
+        <div class="photo-caption">Sugarloaf Mountain</div>
       </div>
     </div>
   </div>
@@ -113,15 +113,15 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo9.jpg" alt="">
-        <div class="photo-caption">Ski lift overlooking volcanic ridge</div>
+        <div class="photo-caption">The Climbing Ski Lift</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo10.jpg" alt="">
-        <div class="photo-caption">Snow-covered crater rim</div>
+        <div class="photo-caption">A Lake from Above</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo11.jpg" alt="">
-        <div class="photo-caption">Summit framed against blue sky</div>
+        <div class="photo-caption">The Summit</div>
       </div>
     </div>
   </div>
@@ -132,11 +132,11 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo13.jpg" alt="">
-        <div class="photo-caption">Mountain cabin at dusk</div>
+        <div class="photo-caption">Norwegian Stave Chruch</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo12.jpg" alt="">
-        <div class="photo-caption">Emerging peaks through the clouds</div>
+        <div class="photo-caption">Norwegian Fjörd</div>
       </div>
     </div>
   </div>
@@ -147,11 +147,11 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo7.jpg" alt="">
-        <div class="photo-caption">Fisheye look through evergreens</div>
+        <div class="photo-caption">A Fisheye of Beauty</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo8.jpg" alt="">
-        <div class="photo-caption">Late spring trail under tall pines</div>
+        <div class="photo-caption">A Fisheye of the Earth</div>
       </div>
     </div>
   </div>
@@ -162,15 +162,15 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo18.jpg" alt="">
-        <div class="photo-caption">Fog drifting through the mountains</div>
+        <div class="photo-caption">A Lake in the Mountains</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo19.jpg" alt="">
-        <div class="photo-caption">Golden aspens during melt season</div>
+        <div class="photo-caption">Autumn Leaves</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo20.jpg" alt="">
-        <div class="photo-caption">Storm clouds over the valley</div>
+        <div class="photo-caption">Autumn Trees</div>
       </div>
     </div>
   </div>
@@ -181,11 +181,11 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo25.jpg" alt="">
-        <div class="photo-caption">Colosseum in soft winter light</div>
+        <div class="photo-caption">The Winter Colosseum</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo26.jpg" alt="">
-        <div class="photo-caption">Evening light over ancient streets</div>
+        <div class="photo-caption">A Sun Spot</div>
       </div>
     </div>
   </div>
@@ -196,19 +196,19 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo28.jpg" alt="">
-        <div class="photo-caption">Town square at night</div>
+        <div class="photo-caption">Dark Street</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo29.jpg" alt="">
-        <div class="photo-caption">Gothic architecture after sunset</div>
+        <div class="photo-caption">Gothic Chruch</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo30.jpg" alt="">
-        <div class="photo-caption">Misty canal reflections</div>
+        <div class="photo-caption">River Rink</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo31.jpg" alt="">
-        <div class="photo-caption">Quiet alleyway in winter</div>
+        <div class="photo-caption">Rainy Street</div>
       </div>
     </div>
   </div>
@@ -219,19 +219,19 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo21.jpg" alt="">
-        <div class="photo-caption">Colorful festival decorations</div>
+        <div class="photo-caption">Colorful Decorations</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo22.jpg" alt="">
-        <div class="photo-caption">Stone courtyard walkway</div>
+        <div class="photo-caption">Stone Walkway</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo23.jpg" alt="">
-        <div class="photo-caption">Bright facades in late afternoon</div>
+        <div class="photo-caption">Bright Afternoon</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo24.jpg" alt="">
-        <div class="photo-caption">Old-world street charm</div>
+        <div class="photo-caption">Into Abyss</div>
       </div>
     </div>
   </div>
@@ -242,15 +242,15 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo1.jpg" alt="">
-        <div class="photo-caption">Colorful buildings by the canal</div>
+        <div class="photo-caption">Disorder</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo2.jpg" alt="">
-        <div class="photo-caption">Quiet waterside alley</div>
+        <div class="photo-caption">Wes Anderson</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo3.jpg" alt="">
-        <div class="photo-caption">Historic architecture under blue skies</div>
+        <div class="photo-caption">Beauty within Buildings</div>
       </div>
     </div>
   </div>
