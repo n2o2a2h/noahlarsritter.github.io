@@ -74,6 +74,6 @@ description: |
 
     <a class="script-button" href="img/scripts/discovering.pdf" target="_blank">Open Full PDF</a>
 
-    <iframe src="img/scripts/discovering-orange-green.pdf" width="100%" height="600px"></iframe>
+    <iframe src="img/scripts/discovering.pdf" width="100%" height="600px"></iframe>
   </div>
 ---
