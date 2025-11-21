@@ -7,7 +7,7 @@ date: 2024-07-17
 img: 
 thumbnail: 
 project-date: 2022–2024
-category: Film
+category: Mixed Media
 description: |
 
   <style>
@@ -40,7 +40,35 @@ description: |
       margin: 0 auto;
       line-height: 1.6;
     }
+
+    /* Video grid for RMC videos */
+    .rmc-video-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .rmc-video-item {
+      text-align: center;
+      max-width: 480px;
+    }
+
+    .rmc-video-item video {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .rmc-video-caption {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #333;
+      font-family: 'Montserrat', sans-serif;
+    }
   </style>
+ </style>
 
   <!-- FILM 1 -->
   <div class="film-entry">
@@ -48,7 +76,7 @@ description: |
 
     <div class="film-video">
       <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/tqFS2bqqzJM"
+        src="https://www.youtube.com/embed/rgF7PKhkvnA"
         title="Queen and Slim"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -67,7 +95,7 @@ description: |
 
     <div class="film-video">
       <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/L6BPrh_mTrw"
+        src="https://www.youtube.com/embed/BVIUkqpvnd8"
         title="Motherhood"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -76,7 +104,7 @@ description: |
 
     <div class="film-description">
       <strong>Date:</strong> February 5th, 2024<br>
-     A Found Footage Edit by Noah Ritter.
+      A Found Footage Edit by Noah Ritter.
     </div>
   </div>
 
@@ -84,38 +112,37 @@ description: |
   <!--          VIDEOGRAPHY          -->
   <!-- ============================= -->
   <div class="photo-group">
-    <div class="photo-header">Rocky Mountain catering</div>
+    <div class="photo-header">Rocky Mountain Catering</div>
 
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/graphicdesign1.pdf" alt="">
-        <div class="photo-caption">The Wild v1</div>
+    <div class="rmc-video-row">
+      <div class="rmc-video-item">
+        <video controls>
+          <source src="img/portfolio/rmc1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="rmc-video-caption">Evergreen</div>
       </div>
-      <div class="photo-item">
-        <img src="img/portfolio/graphicdesign2.pdf" alt="">
-        <div class="photo-caption">Lights, Camera, Action</div>
+      <div class="rmc-video-item">
+        <video controls>
+          <source src="img/portfolio/rmc2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="rmc-video-caption">Highland Ranch</div>
       </div>
-      <div class="photo-item">
-        <img src="img/portfolio/graphicdesign3.pdf" alt="">
-        <div class="photo-caption">New Movie Release</div>
+      <div class="rmc-video-item">
+        <video controls>
+          <source src="img/portfolio/rmc4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="rmc-video-caption">Spruce Mountain</div>
       </div>
-    </div>
-
-    <div class="photo-subheader">Kafkaesque</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/kafka.3.JPG" alt="">
-        <div class="photo-caption">Part 1</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/kafka2.jpg" alt="">
-        <div class="photo-caption">Part 2</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/kafka1.jpg" alt="">
-        <div class="photo-caption">Part 3</div>
+      <div class="rmc-video-item">
+        <video controls>
+          <source src="img/portfolio/rmc5.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="rmc-video-caption">Parker</div>
       </div>
     </div>
   </div>
-
 ---
