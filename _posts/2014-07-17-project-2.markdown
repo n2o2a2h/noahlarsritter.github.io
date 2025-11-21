@@ -43,8 +43,6 @@ description: |
   </style>
 
   A curated selection of my short films  
-    </div>
-  </div>
   
   <!-- FILM 1 -->
   <div class="film-entry">
