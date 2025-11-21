@@ -4,7 +4,7 @@ subtitle: A collection of art in different mediums
 layout: default
 modal-id: 4
 date: 2024-07-01
-thumbnail:
+thumbnail: null
 project-date: 2022–2025
 category: Artwork
 description: |
@@ -46,11 +46,10 @@ description: |
       text-align: center;
     }
 
-    /* SAME HEIGHT — NO CROPPING — NATURAL WIDTH */
     .photo-item img {
-      height: 220px;             /* All images same height */
-      width: auto;               /* Width adjusts naturally */
-      object-fit: contain;       /* Prevents cropping */
+      height: 220px;
+      width: auto;
+      object-fit: contain;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
@@ -76,7 +75,6 @@ description: |
   <div class="photo-group">
     <div class="photo-header">Graphic Design</div>
 
-    <!-- Magazine Designs -->
     <div class="photo-subheader">Branding Project</div>
     <div class="photo-row">
       <div class="photo-item">
@@ -93,18 +91,17 @@ description: |
       </div>
     </div>
 
-    <!-- Kafkaesque -->
     <div class="photo-subheader">Poster Design</div>
     <div class="photo-row">
       <div class="photo-item">
-        <img src="img/portfolio/kafka1.jpg" alt="">
+        <img src="img/artwork/kafka1.jpg" alt="">
         <div class="photo-caption">Festival Poster</div>
       </div>
       <div class="photo-item">
         <img src="img/artwork/kafka2.jpg" alt="">
         <div class="photo-caption">Minimal Layout</div>
       </div>
-     <div class="photo-item">
+      <div class="photo-item">
         <img src="img/artwork/kafka3.jpg" alt="">
         <div class="photo-caption">Minimal Layout</div>
       </div>
@@ -118,7 +115,6 @@ description: |
   <div class="photo-group">
     <div class="photo-header">Digital Artwork & Animation</div>
 
-  <!-- Concept Art for an Author's Novel -->
     <div class="photo-subheader">3D Rendering</div>
     <div class="photo-row">
       <div class="photo-item">
@@ -134,9 +130,8 @@ description: |
         <div class="photo-caption">Environment Render</div>
       </div>
     </div>
- 
-  <!-- Concept Art for an Animation Project -->
-<div class="photo-subheader">Animation Frames</div>
+
+    <div class="photo-subheader">Animation Frames</div>
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/artworkmonkey1.jpg" alt="">
@@ -146,19 +141,17 @@ description: |
         <img src="img/portfolio/artworkmonkey2.jpg" alt="">
         <div class="photo-caption">Motion Study</div>
       </div>
-    </div>
-     <div class="photo-item">
+      <div class="photo-item">
         <img src="img/portfolio/artworkmonkey3.jpg" alt="">
         <div class="photo-caption">Motion Study</div>
-     </div>
-    </div>
-     <div class="photo-item">
+      </div>
+      <div class="photo-item">
         <img src="img/portfolio/artworkmonkey4.jpg" alt="">
-        <div class="photo-caption">Motion Study</div> 
-        
+        <div class="photo-caption">Motion Study</div>
+      </div>
+    </div>
 
- <!-- Other Digital Artwork --> 
-          <div class="photo-subheader">3D Rendering</div>
+    <div class="photo-subheader">3D Rendering</div>
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/katiebook1.jpg" alt="">
