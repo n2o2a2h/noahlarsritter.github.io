@@ -1,6 +1,6 @@
 ---
 title: Screenplays
-subtitle: A Collection of Original Scripts
+subtitle: A collection of original scripts
 layout: default
 modal-id: 6
 date: 2020-01-01
