@@ -4,7 +4,7 @@ subtitle: A collection of art in different mediums
 layout: default
 modal-id: 4
 date: 2024-07-01
-thumbnail: thumbnail1.jpg
+thumbnail: thumbnail2.jpg
 project-date: 2020–2025
 category: Artwork
 description: |
