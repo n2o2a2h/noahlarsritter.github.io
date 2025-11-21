@@ -42,8 +42,6 @@ description: |
     }
   </style>
 
-  A curated selection of my short films  
-  
   <!-- FILM 1 -->
   <div class="film-entry">
     <div class="film-title">Things Aren't Always As They Seem</div>
