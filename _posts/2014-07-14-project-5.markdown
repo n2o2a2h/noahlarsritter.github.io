@@ -80,22 +80,41 @@ description: |
     </div>
   </div>
 
-  <!-- FILM 3 -->
-  <div class="film-entry">
-    <div class="film-title">Chase Scene</div>
+  <!-- ============================= -->
+  <!--          VIDEOGRAPHY          -->
+  <!-- ============================= -->
+  <div class="photo-group">
+    <div class="photo-header">Rocky Mountain catering</div>
 
-    <div class="film-video">
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/ZFUjfWuedIc"
-        title="Chase Scene"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/graphicdesign1.pdf" alt="">
+        <div class="photo-caption">The Wild v1</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/graphicdesign2.pdf" alt="">
+        <div class="photo-caption">Lights, Camera, Action</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/graphicdesign3.pdf" alt="">
+        <div class="photo-caption">New Movie Release</div>
+      </div>
     </div>
 
-    <div class="film-description">
-      <strong>Date:</strong> March 9th, 2024<br>
-      A short film by Noah Ritter, Mills Coleman, and Sophia Holt.
+    <div class="photo-subheader">Kafkaesque</div>
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/kafka.3.JPG" alt="">
+        <div class="photo-caption">Part 1</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/kafka2.jpg" alt="">
+        <div class="photo-caption">Part 2</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/kafka1.jpg" alt="">
+        <div class="photo-caption">Part 3</div>
+      </div>
     </div>
   </div>
 
