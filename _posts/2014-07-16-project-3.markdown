@@ -36,11 +36,10 @@ description: |
       text-align: center;
     }
 
-    /* SAME HEIGHT — NO CROPPING — SAME WIDTH */
     .photo-item img {
-      height: 120px;       /* Reduce by 30% */
-      width: auto;         
-      object-fit: contain; 
+      height: 120px;
+      width: auto;
+      object-fit: contain;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
@@ -110,7 +109,7 @@ description: |
         <img src="img/portfolio/photo11.jpg" alt="">
         <div class="photo-caption">The Summit</div>
       </div>
-       <div class="photo-item">
+      <div class="photo-item">
         <img src="img/portfolio/photo10.jpg" alt="">
         <div class="photo-caption">A Lake from Above</div>
       </div>
@@ -227,25 +226,22 @@ description: |
     </div>
   </div>
 
-<!-- COPENHAGEN -->
-<div class="photo-group">
-  <div class="photo-header">Copenhagen — Spring 2022</div>
-
-  <div class="photo-row">
-    <div class="photo-item">
-      <img src="img/portfolio/photo2.jpg" alt="">
-      <div class="photo-caption">Wes Anderson</div>
-    </div>
-
-    <div class="photo-item">
-      <img src="img/portfolio/photo1.jpg" alt="">
-      <div class="photo-caption">Disorder</div>
-    </div>
-
-    <div class="photo-item">
-      <img src="img/portfolio/photo3.jpg" alt="">
-      <div class="photo-caption">Beauty within Buildings</div>
+  <!-- COPENHAGEN -->
+  <div class="photo-group">
+    <div class="photo-header">Copenhagen — Spring 2022</div>
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/photo2.jpg" alt="">
+        <div class="photo-caption">Wes Anderson</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/photo1.jpg" alt="">
+        <div class="photo-caption">Disorder</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/photo3.jpg" alt="">
+        <div class="photo-caption">Beauty within Buildings</div>
+      </div>
     </div>
   </div>
-</div>
 ---
