@@ -38,9 +38,9 @@ description: |
 
     /* SAME HEIGHT — NO CROPPING — NATURAL WIDTH */
     .photo-item img {
-      height: 180px;       /* All images same height */
-      width: auto;         /* Width adjusts naturally */
-      object-fit: contain; /* Prevents cropping */
+      height: 144px;       /* Reduced by 20% */
+      width: auto;         
+      object-fit: contain; 
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
