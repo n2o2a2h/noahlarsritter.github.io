@@ -38,7 +38,7 @@ description: |
 
     /* SAME HEIGHT — NO CROPPING — NATURAL WIDTH */
     .photo-item img {
-      height: 144px;       /* Reduced by 20% */
+      height: 144px;       /* Reduce by 40% */
       width: auto;         
       object-fit: contain; 
       border-radius: 8px;
