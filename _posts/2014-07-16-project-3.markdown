@@ -127,11 +127,15 @@ description: |
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/photo13.jpg" alt="">
-        <div class="photo-caption">Norwegian Stave Chruch</div>
+        <div class="photo-caption">Stave Chruch</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo12.jpg" alt="">
         <div class="photo-caption">Norwegian Fjörd</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/photo32.jpg" alt="">
+        <div class="photo-caption">Stave Church Part 2</div>
       </div>
     </div>
   </div>
