@@ -1,15 +1,102 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: Other Projects
+subtitle: A collection of mixed media
 layout: default
-modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+modal-id: 2
+date: 2024-07-17
+img: 
+thumbnail: 
+project-date: 2022–2024
+category: Film
+description: |
+
+  <style>
+    .film-entry {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    .film-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #0A1A2F;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+    }
+
+    .film-video {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+
+    .film-description {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      color: #333;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+  </style>
+
+  <!-- FILM 1 -->
+  <div class="film-entry">
+    <div class="film-title">Queen and Slim Video Essay</div>
+
+    <div class="film-video">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/tqFS2bqqzJM"
+        title="Queen and Slim"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <div class="film-description">
+      <strong>Date:</strong> March 18th, 2022<br>
+      An Analysis of the film Queen and Slim, Directed by Melina Matsoukas.
+    </div>
+  </div>
+
+  <!-- FILM 2 -->
+  <div class="film-entry">
+    <div class="film-title">Motherhood</div>
+
+    <div class="film-video">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/L6BPrh_mTrw"
+        title="Motherhood"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <div class="film-description">
+      <strong>Date:</strong> February 5th, 2024<br>
+     A Found Footage Edit by Noah Ritter.
+    </div>
+  </div>
+
+  <!-- FILM 3 -->
+  <div class="film-entry">
+    <div class="film-title">Chase Scene</div>
+
+    <div class="film-video">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/ZFUjfWuedIc"
+        title="Chase Scene"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <div class="film-description">
+      <strong>Date:</strong> March 9th, 2024<br>
+      A short film by Noah Ritter, Mills Coleman, and Sophia Holt.
+    </div>
+  </div>
 
 ---
