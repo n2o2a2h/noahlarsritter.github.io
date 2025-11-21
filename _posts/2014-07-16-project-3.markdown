@@ -38,7 +38,7 @@ description: |
 
     /* SAME HEIGHT — NO CROPPING — NATURAL WIDTH */
     .photo-item img {
-      height: 220px;       /* All images same height */
+      height: 180px;       /* All images same height */
       width: auto;         /* Width adjusts naturally */
       object-fit: contain; /* Prevents cropping */
       border-radius: 8px;
