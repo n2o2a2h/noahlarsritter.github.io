@@ -115,7 +115,7 @@ description: |
   <div class="photo-group">
     <div class="photo-header">Digital Artwork & Animation</div>
 
-    <div class="photo-subheader">3D Rendering</div>
+    <div class="photo-subheader">Concept Art for an Author's Novel</div>
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/katiebook1.jpg" alt="">
@@ -131,39 +131,23 @@ description: |
       </div>
     </div>
 
-    <div class="photo-subheader">Animation Frames</div>
+    <div class="photo-subheader">Concept Art for an Animation Film</div>
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/artworkmonkey1.jpg" alt="">
-        <div class="photo-caption">Key Frame</div>
+        <div class="photo-caption">Character Model, Still</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/artworkmonkey2.jpg" alt="">
-        <div class="photo-caption">Motion Study</div>
+        <div class="photo-caption">Character Model, In Motion</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/artworkmonkey3.jpg" alt="">
-        <div class="photo-caption">Motion Study</div>
+        <div class="photo-caption">6 Models In Motion</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/artworkmonkey4.jpg" alt="">
-        <div class="photo-caption">Motion Study</div>
-      </div>
-    </div>
-
-    <div class="photo-subheader">3D Rendering</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/katiebook1.jpg" alt="">
-        <div class="photo-caption">Sci-Fi Corridor</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/katiebook2.jpg" alt="">
-        <div class="photo-caption">Character Model</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/katiebook3.jpg" alt="">
-        <div class="photo-caption">Environment Render</div>
+        <div class="photo-caption">Character's Face Features</div>
       </div>
     </div>
   </div>
