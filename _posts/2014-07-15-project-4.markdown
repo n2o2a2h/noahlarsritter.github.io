@@ -1,5 +1,5 @@
 ---
-title: Artwork
+title: Artwork and Animation
 subtitle: A collection of art in different mediums
 layout: default
 modal-id: 4
