@@ -4,8 +4,8 @@ subtitle: A collection of mixed media
 layout: default
 modal-id: 2
 date: 2024-07-17
-img: 
-thumbnail: 
+img: null
+thumbnail: null
 project-date: 2022–2024
 category: Mixed Media
 description: |
@@ -68,12 +68,10 @@ description: |
       font-family: 'Montserrat', sans-serif;
     }
   </style>
- </style>
 
   <!-- FILM 1 -->
   <div class="film-entry">
     <div class="film-title">Queen and Slim Video Essay</div>
-
     <div class="film-video">
       <iframe width="560" height="315"
         src="https://www.youtube.com/embed/rgF7PKhkvnA"
@@ -82,7 +80,6 @@ description: |
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
-
     <div class="film-description">
       <strong>Date:</strong> March 18th, 2022<br>
       An Analysis of the film Queen and Slim, Directed by Melina Matsoukas.
@@ -92,7 +89,6 @@ description: |
   <!-- FILM 2 -->
   <div class="film-entry">
     <div class="film-title">Motherhood</div>
-
     <div class="film-video">
       <iframe width="560" height="315"
         src="https://www.youtube.com/embed/BVIUkqpvnd8"
@@ -101,7 +97,6 @@ description: |
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
-
     <div class="film-description">
       <strong>Date:</strong> February 5th, 2024<br>
       A Found Footage Edit by Noah Ritter.
