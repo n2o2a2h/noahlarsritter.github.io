@@ -88,12 +88,12 @@ description: |
     <div class="photo-header">Rio De Janeiro — October 2025</div>
     <div class="photo-row">
       <div class="photo-item">
-        <img src="img/portfolio/photo14.jpg" alt="">
-        <div class="photo-caption">Green River</div>
+        <img src="img/portfolio/photo17.jpg" alt="">
+        <div class="photo-caption">Flying Monkey</div>
       </div>
       <div class="photo-item">
-        <img src="img/portfolio/photo17.jpg" alt="">
-        <div class="photo-caption">Jumping Monkey</div>
+        <img src="img/portfolio/photo14.jpg" alt="">
+        <div class="photo-caption">Green River</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo16.jpg" alt="">
@@ -111,12 +111,12 @@ description: |
         <div class="photo-caption">The Climbing Ski Lift</div>
       </div>
       <div class="photo-item">
-        <img src="img/portfolio/photo10.jpg" alt="">
-        <div class="photo-caption">A Lake from Above</div>
-      </div>
-      <div class="photo-item">
         <img src="img/portfolio/photo11.jpg" alt="">
         <div class="photo-caption">The Summit</div>
+      </div>
+       <div class="photo-item">
+        <img src="img/portfolio/photo10.jpg" alt="">
+        <div class="photo-caption">A Lake from Above</div>
       </div>
     </div>
   </div>
@@ -158,10 +158,6 @@ description: |
       <div class="photo-item">
         <img src="img/portfolio/photo18.jpg" alt="">
         <div class="photo-caption">A Lake in the Mountains</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/photo19.jpg" alt="">
-        <div class="photo-caption">Autumn Leaves</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/photo20.jpg" alt="">
