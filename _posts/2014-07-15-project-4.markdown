@@ -139,7 +139,7 @@ description: |
       </div>
       <div class="photo-item">
         <img src="img/portfolio/artworkmonkey2.jpg" alt="">
-        <div class="photo-caption">Character Model, In Motion</div>
+        <div class="photo-caption">Character Model, Motion</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/artworkmonkey3.jpg" alt="">
@@ -159,30 +159,30 @@ description: |
   <div class="photo-group">
     <div class="photo-header">Material Artwork</div>
 
-    <div class="photo-subheader">Sculpture</div>
+    <div class="photo-subheader">Sketchbooking in Italy</div>
     <div class="photo-row">
       <div class="photo-item">
-        <img src="img/artwork/sculpt1.jpg" alt="">
+        <img src="img/portfolio/artwork3.jpg" alt="">
         <div class="photo-caption">Clay Structure</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/sculpt2.jpg" alt="">
+        <img src="img/artwork/portfolio/artwork4.jpeg" alt="">
         <div class="photo-caption">Textured Form</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/sculpt3.jpg" alt="">
+        <img src="img/portfolio/artwork2.jpg" alt="">
         <div class="photo-caption">Final Model</div>
       </div>
     </div>
 
-    <div class="photo-subheader">Painting</div>
+    <div class="photo-subheader">Elephants</div>
     <div class="photo-row">
       <div class="photo-item">
-        <img src="img/artwork/paint1.jpg" alt="">
+        <img src="img/portfolio/artwork1.jpeg" alt="">
         <div class="photo-caption">Abstract Shapes</div>
       </div>
       <div class="photo-item">
-        <img src="img/artwork/paint2.jpg" alt="">
+        <img src="img/portfolio/artwork5.jpg" alt="">
         <div class="photo-caption">Color Fields</div>
       </div>
     </div>
