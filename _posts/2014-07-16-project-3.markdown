@@ -69,10 +69,6 @@ description: |
         <div class="photo-caption">Overlooking Alpaca</div>
       </div>
       <div class="photo-item">
-        <img src="img/portfolio/photo5.jpg" alt="">
-        <div class="photo-caption">Mist Rising</div>
-      </div>
-      <div class="photo-item">
         <img src="img/portfolio/photo6.jpg" alt="">
         <div class="photo-caption">Clouds and Mountains</div>
       </div>
