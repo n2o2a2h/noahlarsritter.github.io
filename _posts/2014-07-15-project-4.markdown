@@ -89,6 +89,10 @@ description: |
         <img src="img/portfolio/graphicdesign3.pdf" alt="">
         <div class="photo-caption">New Movie Release</div>
       </div>
+       <div class="photo-item">
+        <img src="img/portfolio/PlanBFinalPoster.jpg" alt="">
+        <div class="photo-caption">Movie Poster Design</div>
+      </div>
     </div>
 
     <div class="photo-subheader">Kafkaesque</div>
@@ -106,9 +110,9 @@ description: |
         <div class="photo-caption">Part 3</div>
       </div>
     </div>
-  </div>
 
 
+  
   <!-- ============================================ -->
   <!--       DIGITAL ARTWORK & ANIMATION            -->
   <!-- ============================================ -->
