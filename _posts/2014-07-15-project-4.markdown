@@ -152,6 +152,106 @@ description: |
     </div>
   </div>
 
+      <div class="photo-subheader">Whispering Winds – Graphic Novel Concept Art</div>
+
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel0.jpg" alt="">
+        <div class="photo-caption">Cover Page</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 1.jpg" alt="">
+        <div class="photo-caption">Page 1</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 2.jpg" alt="">
+        <div class="photo-caption">Page 2</div>
+      </div>
+    </div>
+
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 3.jpg" alt="">
+        <div class="photo-caption">Page 3</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 4.jpg" alt="">
+        <div class="photo-caption">Page 4</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 5.jpg" alt="">
+        <div class="photo-caption">Page 5</div>
+      </div>
+    </div>
+
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 6.jpg" alt="">
+        <div class="photo-caption">Page 6</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 7.jpg" alt="">
+        <div class="photo-caption">Page 7</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 8.jpg" alt="">
+        <div class="photo-caption">Page 8</div>
+      </div>
+    </div>
+
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 9.jpg" alt="">
+        <div class="photo-caption">Page 9</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 10.jpg" alt="">
+        <div class="photo-caption">Page 10</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 11.jpg" alt="">
+        <div class="photo-caption">Page 11</div>
+      </div>
+    </div>
+
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 12.jpg" alt="">
+        <div class="photo-caption">Page 12</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 13.jpg" alt="">
+        <div class="photo-caption">Page 13</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 14.jpg" alt="">
+        <div class="photo-caption">Page 14</div>
+      </div>
+    </div>
+
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 15.jpg" alt="">
+        <div class="photo-caption">Page 15</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 16.jpg" alt="">
+        <div class="photo-caption">Page 16</div>
+      </div>
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 17.jpg" alt="">
+        <div class="photo-caption">Page 17</div>
+      </div>
+    </div>
+
+    <div class="photo-row">
+      <div class="photo-item">
+        <img src="img/portfolio/Graphic_Novel 18.jpg" alt="">
+        <div class="photo-caption">Concept Art for Whispering Winds</div>
+      </div>
+    </div>
+
+
 
   <!-- ============================= -->
   <!--        MATERIAL ARTWORK       -->
