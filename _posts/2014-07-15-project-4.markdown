@@ -272,15 +272,15 @@ description: |
       </div>
     </div>
 
-    <div class="photo-subheader">Elephants</div>
+    <div class="photo-subheader">Elephant Prints</div>
     <div class="photo-row">
       <div class="photo-item">
         <img src="img/portfolio/artwork1.jpeg" alt="">
-        <div class="photo-caption">Mixed Materials</div>
+        <div class="photo-caption">Print 1</div>
       </div>
       <div class="photo-item">
         <img src="img/portfolio/artwork5.jpg" alt="">
-        <div class="photo-caption">Print</div>
+        <div class="photo-caption">Print 2</div>
       </div>
     </div>
   </div>
