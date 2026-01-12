@@ -2,7 +2,7 @@
 title: Other Projects
 subtitle: A collection of mixed media
 layout: default
-modal-id: 5
+modal-id: 6
 date: 2019-07-17
 img: null
 thumbnail: thumbnailother.jpg
