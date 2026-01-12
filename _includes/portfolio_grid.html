@@ -18,12 +18,13 @@
                             </div>
                         </div>
 
-                        <!-- Thumbnail with fixed, uniform size -->
-                        <img 
-                            src="img/portfolio/{{ post.thumbnail }}" 
-                            class="img-responsive img-centered"
-                            style="width: 100%; height: 260px; object-fit: cover; border-radius: 6px;"
-                            alt="{{ post.alt }}">
+                        <!-- Thumbnail with 3:2 aspect ratio -->
+                        <div class="thumbnail-container">
+                            <img 
+                                src="img/portfolio/{{ post.thumbnail }}" 
+                                class="thumbnail-img" 
+                                alt="{{ post.alt }}">
+                        </div>
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
@@ -34,3 +35,39 @@
         </div>
     </div>
 </section>
+
+<!-- Example of project/post image inside modal -->
+<!-- These images are smaller, keep their natural aspect ratio, distinct from thumbnails -->
+<img 
+    src="img/portfolio/{{ post.project-img }}" 
+    class="project-img" 
+    alt="{{ post.title }}">
+    
+
+<!-- CSS -->
+<style>
+/* Thumbnails */
+.thumbnail-container {
+    width: 100%;
+    aspect-ratio: 3 / 2;  /* fixed 3:2 ratio */
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* fills container, crops if needed */
+    display: block;
+}
+
+/* Project/Post images */
+.project-img {
+    max-width: 600px;    /* smaller size for modal or detail view */
+    width: 100%;
+    height: auto;        /* preserve original aspect ratio */
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+</style>
