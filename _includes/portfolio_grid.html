@@ -1,73 +1,118 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Portfolio</h2>
-                <h3 class="section-subheading text-muted">My Films, Photos, Art, and Stories.</h3>
-            </div>
-        </div>
-
-        <div class="row">
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-
-                        <!-- Thumbnail with 3:2 aspect ratio -->
-                        <div class="thumbnail-container">
-                            <img 
-                                src="img/portfolio/{{ post.thumbnail }}" 
-                                class="thumbnail-img" 
-                                alt="{{ post.alt }}">
-                        </div>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Portfolio</h2>
+        <h3 class="section-subheading text-muted">My Films, Photos, Art, and Stories.</h3>
+      </div>
     </div>
+
+    <div class="row">
+      {% for post in site.posts %}
+        {%- comment -%}
+          Normalize front-matter keys so we can support:
+            - modal_id OR modal-id
+            - project_img OR project-img
+            - thumbnail OR thumbnail (expected)
+            - alt OR title fallback
+        {%- endcomment -%}
+        {% assign modal_id = post.modal_id | default: post["modal-id"] %}
+        {% assign thumbnail = post.thumbnail | default: post["thumbnail"] %}
+        {% assign project_img = post.project_img | default: post["project-img"] %}
+        {% assign alt_text = post.alt | default: post.title %}
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal{{ modal_id }}" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+
+            <!-- Thumbnail with 3:2 aspect ratio -->
+            <div class="thumbnail-container">
+              {% if thumbnail %}
+                <img
+                  src="img/portfolio/{{ thumbnail }}"
+                  class="thumbnail-img"
+                  alt="{{ alt_text }}">
+              {% else %}
+                <!-- Optional fallback: show a placeholder if thumbnail is missing -->
+                <div class="thumbnail-placeholder" aria-hidden="true">
+                  <!-- simple CSS fallback box (no external image required) -->
+                  <svg width="100%" height="100%" viewBox="0 0 3 2" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="3" height="2" fill="#e9ecef"></rect>
+                    <text x="1.5" y="1" alignment-baseline="middle" text-anchor="middle" font-size=".25" fill="#adb5bd">No thumbnail</text>
+                  </svg>
+                </div>
+              {% endif %}
+            </div>
+          </a>
+
+          <div class="portfolio-caption">
+            <h4>{{ post.title }}</h4>
+            <p class="text-muted">{{ post.subtitle }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
 
-<!-- Example of project/post image inside modal -->
-<!-- These images are smaller, keep their natural aspect ratio, distinct from thumbnails -->
-<img 
-    src="img/portfolio/{{ post.project-img }}" 
-    class="project-img" 
-    alt="{{ post.title }}">
-    
+<!-- Example of how to render a project/post image inside a modal
+     (move this into your _includes/portfolio_modals.html inside the loop where you render each modal)
+     This ensures the modal only tries to show an <img> when the post actually has one. -->
+{% comment %}
+  Example modal-content snippet:
+{% endcomment %}
+{% for post in site.posts %}
+  {% assign project_img = post.project_img | default: post["project-img"] %}
+  {% assign alt_text = post.alt | default: post.title %}
+  <!-- inside the modal for this post -->
+  {% if project_img %}
+    <img
+      src="img/portfolio/{{ project_img }}"
+      class="project-img"
+      alt="{{ alt_text }}">
+  {% endif %}
+{% endfor %}
 
 <!-- CSS -->
 <style>
 /* Thumbnails */
 .thumbnail-container {
-    width: 100%;
-    aspect-ratio: 3 / 2;  /* fixed 3:2 ratio */
-    overflow: hidden;
-    border-radius: 6px;
+  width: 100%;
+  aspect-ratio: 3 / 2;  /* fixed 3:2 ratio */
+  overflow: hidden;
+  border-radius: 6px;
+  background: transparent;
+  display: block;
+  position: relative;
 }
 
+/* Fallback placeholder occupies same area as image */
+.thumbnail-placeholder {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Thumbnail image */
 .thumbnail-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* fills container, crops if needed */
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills container, crops if needed */
+  display: block;
 }
 
-/* Project/Post images */
+/* Project/Post images (for modal) */
 .project-img {
-    max-width: 600px;    /* smaller size for modal or detail view */
-    width: 100%;
-    height: auto;        /* preserve original aspect ratio */
-    display: block;
-    margin: 0 auto;
-    border-radius: 6px;
+  max-width: 600px;    /* smaller size for modal or detail view */
+  width: 100%;
+  height: auto;        /* preserve original aspect ratio */
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
 }
 </style>
