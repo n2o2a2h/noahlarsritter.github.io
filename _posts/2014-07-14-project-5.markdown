@@ -4,7 +4,6 @@ subtitle: A collection of mixed media
 layout: default
 modal-id: 6
 date: 2019-07-17
-img: null
 thumbnail: thumbnailother.jpg
 project-date: 2022–2024
 category: Mixed Media
