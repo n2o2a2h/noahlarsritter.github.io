@@ -58,7 +58,7 @@ category: Mixed Media
 
   <div class="film-description">
     <strong>Date:</strong> March 18th, 2022<br>
-    An Analysis of the film Queen and Slim, Directed by Melina Matsoukas.
+    An Analysis of the film <em>Queen and Slim</em>, directed by Melina Matsoukas.
   </div>
 </div>
 
@@ -80,13 +80,14 @@ category: Mixed Media
 
   <div class="film-description">
     <strong>Date:</strong> February 5th, 2024<br>
-    A Found Footage Edit by Noah Ritter.
+    A found footage edit by Noah Ritter.
   </div>
 </div>
 
 <!-- ============================= -->
 <!-- ROCKY MOUNTAIN CATERING -->
 <!-- ============================= -->
+
 <div class="film-entry">
   <div class="film-title">Rocky Mountain Catering</div>
 
@@ -98,6 +99,7 @@ category: Mixed Media
       src="https://www.youtube.com/embed/HNjsPGzkhXM"
       title="Evergreen"
       frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
     </iframe>
   </div>
@@ -111,6 +113,7 @@ category: Mixed Media
       src="https://www.youtube.com/embed/ynsEwGuCbI8"
       title="Highland Ranch"
       frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
     </iframe>
   </div>
@@ -124,6 +127,7 @@ category: Mixed Media
       src="https://www.youtube.com/embed/6qcuShwk2B0"
       title="Spruce Mountain"
       frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
     </iframe>
   </div>
@@ -137,9 +141,9 @@ category: Mixed Media
       src="https://www.youtube.com/embed/pFyoMMcNLfA"
       title="Parker"
       frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
     </iframe>
   </div>
   <div class="film-description">Parker</div>
 </div>
-
