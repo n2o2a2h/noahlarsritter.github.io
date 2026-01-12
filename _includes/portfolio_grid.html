@@ -1,4 +1,5 @@
-<!-- portfolio_grid.html: Portfolio grid + modals (single file) -->
+<!-- portfolio_grid.html: Portfolio Grid + Modals -->
+
 <section id="portfolio" class="bg-light-gray">
   <div class="container">
     <div class="row">
@@ -8,14 +9,14 @@
       </div>
     </div>
 
+    <!-- Portfolio Grid -->
     <div class="row">
       {% for post in site.posts %}
-        {% assign modal_id = post.modal_id | default: post["modal-id"] | default: forloop.index %}
+        {% assign modal_id = post.modal_id | default: forloop.index %}
         {% assign thumbnail = post.thumbnail | default: post["thumbnail"] %}
         {% assign alt_text = post.alt | default: post.title %}
 
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <!-- href + data-target both included for compatibility -->
           <a href="#portfolioModal{{ modal_id }}" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal{{ modal_id }}">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -27,7 +28,6 @@
               {% if thumbnail %}
                 <img src="/img/portfolio/{{ thumbnail }}" class="thumbnail-img" alt="{{ alt_text }}">
               {% else %}
-                <!-- fallback placeholder -->
                 <div class="thumbnail-placeholder" aria-hidden="true">
                   <svg width="100%" height="100%" viewBox="0 0 3 2" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="3" height="2" fill="#e9ecef"></rect>
@@ -48,19 +48,16 @@
   </div>
 </section>
 
-<!-- Render modals for each post (place after the grid, still in same file) -->
+<!-- Portfolio Modals -->
 {% for post in site.posts %}
-  {% assign modal_id = post.modal_id | default: post["modal-id"] | default: forloop.index %}
+  {% assign modal_id = post.modal_id | default: forloop.index %}
   {% assign project_img = post.img | default: post.project_img | default: post["project-img"] %}
   {% assign alt_text = post.alt | default: post.title %}
 
-  <div id="portfolioModal{{ modal_id }}" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+  <div id="portfolioModal{{ modal_id }}" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-        <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
         <div class="modal-body">
           <div class="container">
             <div class="row">
@@ -99,7 +96,7 @@
   </div>
 {% endfor %}
 
-<!-- Styles for thumbnails & project images (keeps layout stable) -->
+<!-- Styles for thumbnails & project images -->
 <style>
 .thumbnail-container {
   width: 100%;
