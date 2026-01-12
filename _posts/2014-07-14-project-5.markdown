@@ -9,122 +9,117 @@ thumbnail: thumbnailother.jpg
 project-date: 2022–2024
 category: Mixed Media
 description: |
+<style>
+  .film-entry {
+    margin-bottom: 60px;
+    text-align: center;
+  }
 
-  <style>
-    .film-entry {
-      margin-bottom: 60px;
-      text-align: center;
-    }
+  .film-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0A1A2F;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
 
-    .film-title {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 24px;
-      font-weight: 700;
-      color: #0A1A2F;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 15px;
-    }
+  .film-video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
 
-    .film-video {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 15px;
-    }
+  .film-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+</style>
 
-    .film-description {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 15px;
-      color: #333;
-      max-width: 700px;
-      margin: 0 auto;
-      line-height: 1.6;
-    }
-  </style>
-
-  <!-- FILM 1 -->
-  <div class="film-entry">
-    <div class="film-title">Queen and Slim Video Essay</div>
-    <div class="film-video">
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/rgF7PKhkvnA"
-        title="Queen and Slim"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="film-description">
-      <strong>Date:</strong> March 18th, 2022<br>
-      An Analysis of the film Queen and Slim, Directed by Melina Matsoukas.
-    </div>
+<!-- FILM 1 -->
+<div class="film-entry">
+  <div class="film-title">Queen and Slim Video Essay</div>
+  <div class="film-video">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/rgF7PKhkvnA"
+      title="Queen and Slim"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
   </div>
-
-  <!-- FILM 2 -->
-  <div class="film-entry">
-    <div class="film-title">Motherhood</div>
-    <div class="film-video">
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/BVIUkqpvnd8"
-        title="Motherhood"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="film-description">
-      <strong>Date:</strong> February 5th, 2024<br>
-      A Found Footage Edit by Noah Ritter.
-    </div>
+  <div class="film-description">
+    <strong>Date:</strong> March 18th, 2022<br>
+    An Analysis of the film Queen and Slim, Directed by Melina Matsoukas.
   </div>
+</div>
 
-
-  <!-- ============================= -->
-  <!--      ROCKY MOUNTAIN CATERING  -->
-  <!-- ============================= -->
-  <div class="film-entry">
-    <div class="film-title">Rocky Mountain Catering</div>
-
-    <!-- RMC Video 1 -->
-    <div class="film-video">
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/HNjsPGzkhXM"
-        title="Evergreen"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="film-description">Evergreen</div>
-
-    <!-- RMC Video 2 -->
-    <div class="film-video">
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/ynsEwGuCbI8"
-        title="Highland Ranch"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="film-description">Highland Ranch</div>
-
-    <!-- RMC Video 3 -->
-    <div class="film-video">
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/6qcuShwk2B0"
-        title="Spruce Mountain"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="film-description">Spruce Mountain</div>
-
-    <!-- RMC Video 4 -->
-    <div class="film-video">
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/pFyoMMcNLfA"
-        title="Parker"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="film-description">Parker</div>
+<!-- FILM 2 -->
+<div class="film-entry">
+  <div class="film-title">Motherhood</div>
+  <div class="film-video">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/BVIUkqpvnd8"
+      title="Motherhood"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
   </div>
----
+  <div class="film-description">
+    <strong>Date:</strong> February 5th, 2024<br>
+    A Found Footage Edit by Noah Ritter.
+  </div>
+</div>
+
+<!-- ROCKY MOUNTAIN CATERING -->
+<div class="film-entry">
+  <div class="film-title">Rocky Mountain Catering</div>
+
+  <!-- RMC Video 1 -->
+  <div class="film-video">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/HNjsPGzkhXM"
+      title="Evergreen"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <div class="film-description">Evergreen</div>
+
+  <!-- RMC Video 2 -->
+  <div class="film-video">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/ynsEwGuCbI8"
+      title="Highland Ranch"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <div class="film-description">Highland Ranch</div>
+
+  <!-- RMC Video 3 -->
+  <div class="film-video">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/6qcuShwk2B0"
+      title="Spruce Mountain"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <div class="film-description">Spruce Mountain</div>
+
+  <!-- RMC Video 4 -->
+  <div class="film-video">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/pFyoMMcNLfA"
+      title="Parker"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <div class="film-description">Parker</div>
+</div>
