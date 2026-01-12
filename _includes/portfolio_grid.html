@@ -1,4 +1,4 @@
-<!-- Portfolio Grid Section -->
+<!-- portfolio_grid.html: Portfolio grid + modals (single file) -->
 <section id="portfolio" class="bg-light-gray">
   <div class="container">
     <div class="row">
@@ -10,37 +10,25 @@
 
     <div class="row">
       {% for post in site.posts %}
-        {%- comment -%}
-          Normalize front-matter keys so we can support:
-            - modal_id OR modal-id
-            - project_img OR project-img
-            - thumbnail OR thumbnail (expected)
-            - alt OR title fallback
-        {%- endcomment -%}
-        {% assign modal_id = post.modal_id | default: post["modal-id"] %}
+        {% assign modal_id = post.modal_id | default: post["modal-id"] | default: forloop.index %}
         {% assign thumbnail = post.thumbnail | default: post["thumbnail"] %}
-        {% assign project_img = post.project_img | default: post["project-img"] %}
         {% assign alt_text = post.alt | default: post.title %}
 
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal{{ modal_id }}" class="portfolio-link" data-toggle="modal">
+          <!-- href + data-target both included for compatibility -->
+          <a href="#portfolioModal{{ modal_id }}" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal{{ modal_id }}">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
 
-            <!-- Thumbnail with 3:2 aspect ratio -->
             <div class="thumbnail-container">
               {% if thumbnail %}
-                <img
-                  src="img/portfolio/{{ thumbnail }}"
-                  class="thumbnail-img"
-                  alt="{{ alt_text }}">
+                <img src="/img/portfolio/{{ thumbnail }}" class="thumbnail-img" alt="{{ alt_text }}">
               {% else %}
-                <!-- Optional fallback: show a placeholder if thumbnail is missing -->
+                <!-- fallback placeholder -->
                 <div class="thumbnail-placeholder" aria-hidden="true">
-                  <!-- simple CSS fallback box (no external image required) -->
                   <svg width="100%" height="100%" viewBox="0 0 3 2" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="3" height="2" fill="#e9ecef"></rect>
                     <text x="1.5" y="1" alignment-baseline="middle" text-anchor="middle" font-size=".25" fill="#adb5bd">No thumbnail</text>
@@ -60,59 +48,88 @@
   </div>
 </section>
 
-<!-- Example of how to render a project/post image inside a modal
-     (move this into your _includes/portfolio_modals.html inside the loop where you render each modal)
-     This ensures the modal only tries to show an <img> when the post actually has one. -->
-{% comment %}
-  Example modal-content snippet:
-{% endcomment %}
+<!-- Render modals for each post (place after the grid, still in same file) -->
 {% for post in site.posts %}
-  {% assign project_img = post.project_img | default: post["project-img"] %}
+  {% assign modal_id = post.modal_id | default: post["modal-id"] | default: forloop.index %}
+  {% assign project_img = post.img | default: post.project_img | default: post["project-img"] %}
   {% assign alt_text = post.alt | default: post.title %}
-  <!-- inside the modal for this post -->
-  {% if project_img %}
-    <img
-      src="img/portfolio/{{ project_img }}"
-      class="project-img"
-      alt="{{ alt_text }}">
-  {% endif %}
+
+  <div id="portfolioModal{{ modal_id }}" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ post.title }}</h2>
+                <p class="text-muted">{{ post.subtitle }}</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-md-10">
+                {% if project_img %}
+                  <img src="/img/portfolio/{{ project_img }}" class="project-img" alt="{{ alt_text }}">
+                {% endif %}
+
+                <div class="project-description">
+                  {% if post.description %}
+                    {{ post.description }}
+                  {% else %}
+                    {{ post.content }}
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">Close Project</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 {% endfor %}
 
-<!-- CSS -->
+<!-- Styles for thumbnails & project images (keeps layout stable) -->
 <style>
-/* Thumbnails */
 .thumbnail-container {
   width: 100%;
-  aspect-ratio: 3 / 2;  /* fixed 3:2 ratio */
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   border-radius: 6px;
-  background: transparent;
-  display: block;
   position: relative;
 }
-
-/* Fallback placeholder occupies same area as image */
 .thumbnail-placeholder {
   width: 100%;
   height: 100%;
   display: block;
 }
-
-/* Thumbnail image */
 .thumbnail-img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* fills container, crops if needed */
+  object-fit: cover;
   display: block;
 }
-
-/* Project/Post images (for modal) */
 .project-img {
-  max-width: 600px;    /* smaller size for modal or detail view */
+  max-width: 800px;
   width: 100%;
-  height: auto;        /* preserve original aspect ratio */
+  height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   border-radius: 6px;
+}
+.project-description {
+  margin-top: 10px;
+  text-align: left;
+  word-wrap: break-word;
 }
 </style>
