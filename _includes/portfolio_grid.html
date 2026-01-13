@@ -24,7 +24,7 @@
                             src="img/portfolio/{{ post.thumbnail }}" 
                             class="img-responsive img-centered"
                             style="width: 100%; height: 260px; object-fit: cover; border-radius: 6px;"
-                            alt="{{ post.alt }}">
+                           alt="{{ post.alt | default: post.title }}"
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
