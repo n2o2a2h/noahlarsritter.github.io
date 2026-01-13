@@ -110,7 +110,8 @@ description: |
         <div class="photo-caption">Part 3</div>
       </div>
     </div>
-</div>
+
+    
   
   <!-- ============================================ -->
   <!--       DIGITAL ARTWORK & ANIMATION            -->
