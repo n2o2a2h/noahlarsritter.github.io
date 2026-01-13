@@ -156,7 +156,8 @@ description: |
     </div>
   </div>
 
-      <div class="photo-subheader">Whispering Winds – Graphic Novel Concept Art</div>
+  <div class="photo-group">
+    <div class="photo-header">Whispering Winds – A Graphic Novel</div>
 
     <div class="photo-row">
       <div class="photo-item">
@@ -246,8 +247,7 @@ description: |
         <img src="img/portfolio/Graphic_Novel 17.jpg" alt="">
         <div class="photo-caption">Page 17</div>
       </div>
-    </div>
-
+   </div>
 
 
   <!-- ============================= -->
