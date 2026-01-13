@@ -69,220 +69,225 @@ description: |
     }
   </style>
 
-  <!-- ============================= -->
-  <!--        GRAPHIC DESIGN         -->
-  <!-- ============================= -->
-  <div class="photo-group">
-    <div class="photo-header">Graphic Design</div>
+  <div class="artwork-modal-wrapper">
 
-    <div class="photo-subheader">Magazine Designs</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/graphicdesign1.pdf" alt="">
-        <div class="photo-caption">The Wild v1</div>
+    <!-- ============================= -->
+    <!--        GRAPHIC DESIGN         -->
+    <!-- ============================= -->
+    <div class="photo-group">
+      <div class="photo-header">Graphic Design</div>
+
+      <div class="photo-subheader">Magazine Designs</div>
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/graphicdesign1.pdf" alt="">
+          <div class="photo-caption">The Wild v1</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/graphicdesign2.pdf" alt="">
+          <div class="photo-caption">Lights, Camera, Action</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/graphicdesign3.pdf" alt="">
+          <div class="photo-caption">New Movie Release</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/PlanBFinalPoster.jpg" alt="">
+          <div class="photo-caption">Movie Poster Design</div>
+        </div>
       </div>
-      <div class="photo-item">
-        <img src="img/portfolio/graphicdesign2.pdf" alt="">
-        <div class="photo-caption">Lights, Camera, Action</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/graphicdesign3.pdf" alt="">
-        <div class="photo-caption">New Movie Release</div>
-      </div>
-       <div class="photo-item">
-        <img src="img/portfolio/PlanBFinalPoster.jpg" alt="">
-        <div class="photo-caption">Movie Poster Design</div>
+
+      <div class="photo-subheader">Kafkaesque</div>
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/kafka.3.JPG" alt="">
+          <div class="photo-caption">Part 1</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/kafka2.jpg" alt="">
+          <div class="photo-caption">Part 2</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/kafka1.jpg" alt="">
+          <div class="photo-caption">Part 3</div>
+        </div>
       </div>
     </div>
 
-    <div class="photo-subheader">Kafkaesque</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/kafka.3.JPG" alt="">
-        <div class="photo-caption">Part 1</div>
+    <!-- ============================================ -->
+    <!--       DIGITAL ARTWORK & ANIMATION            -->
+    <!-- ============================================ -->
+    <div class="photo-group">
+      <div class="photo-header">Digital Artwork &amp; Animation</div>
+
+      <div class="photo-subheader">Concept Art for an Author's Novel</div>
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/katiebook1.jpg" alt="">
+          <div class="photo-caption">Tora</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/katiebook2.jpg" alt="">
+          <div class="photo-caption">Aeron</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/katiebook3.jpg" alt="">
+          <div class="photo-caption">Samara</div>
+        </div>
       </div>
-      <div class="photo-item">
-        <img src="img/portfolio/kafka2.jpg" alt="">
-        <div class="photo-caption">Part 2</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/kafka1.jpg" alt="">
-        <div class="photo-caption">Part 3</div>
+
+      <div class="photo-subheader">Concept Art for an Animation Film</div>
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/artworkmonkey1.jpg" alt="">
+          <div class="photo-caption">Character Model, Still</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/artworkmonkey2.jpg" alt="">
+          <div class="photo-caption">Character Model, Motion</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/artworkmonkey3.jpg" alt="">
+          <div class="photo-caption">6 Models In Motion</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/artworkmonkey4.jpg" alt="">
+          <div class="photo-caption">Character's Face Features</div>
+        </div>
       </div>
     </div>
 
-    
-  
-  <!-- ============================================ -->
-  <!--       DIGITAL ARTWORK & ANIMATION            -->
-  <!-- ============================================ -->
-  <div class="photo-group">
-    <div class="photo-header">Digital Artwork & Animation</div>
+    <!-- ============================================ -->
+    <!--        WHISPERING WINDS                      -->
+    <!-- ============================================ -->
+    <div class="photo-group">
+      <div class="photo-header">Whispering Winds – A Graphic Novel</div>
 
-    <div class="photo-subheader">Concept Art for an Author's Novel</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/katiebook1.jpg" alt="">
-        <div class="photo-caption">Tora</div>
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel0.jpg" alt="">
+          <div class="photo-caption">Cover Page</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 1.jpg" alt="">
+          <div class="photo-caption">Page 1</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 2.jpg" alt="">
+          <div class="photo-caption">Page 2</div>
+        </div>
       </div>
-      <div class="photo-item">
-        <img src="img/portfolio/katiebook2.jpg" alt="">
-        <div class="photo-caption">Aeron</div>
+
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 3.jpg" alt="">
+          <div class="photo-caption">Page 3</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 4.jpg" alt="">
+          <div class="photo-caption">Page 4</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 5.jpg" alt="">
+          <div class="photo-caption">Page 5</div>
+        </div>
       </div>
-      <div class="photo-item">
-        <img src="img/portfolio/katiebook3.jpg" alt="">
-        <div class="photo-caption">Samara</div>
+
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 6.jpg" alt="">
+          <div class="photo-caption">Page 6</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 7.jpg" alt="">
+          <div class="photo-caption">Page 7</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 8.jpg" alt="">
+          <div class="photo-caption">Page 8</div>
+        </div>
+      </div>
+
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 9.jpg" alt="">
+          <div class="photo-caption">Page 9</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 10.jpg" alt="">
+          <div class="photo-caption">Page 10</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 11.jpg" alt="">
+          <div class="photo-caption">Page 11</div>
+        </div>
+      </div>
+
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 12.jpg" alt="">
+          <div class="photo-caption">Page 12</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 13.jpg" alt="">
+          <div class="photo-caption">Page 13</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 14.jpg" alt="">
+          <div class="photo-caption">Page 14</div>
+        </div>
+      </div>
+
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 15.jpg" alt="">
+          <div class="photo-caption">Page 15</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 16.jpg" alt="">
+          <div class="photo-caption">Page 16</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/Graphic_Novel 17.jpg" alt="">
+          <div class="photo-caption">Page 17</div>
+        </div>
       </div>
     </div>
 
-    <div class="photo-subheader">Concept Art for an Animation Film</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/artworkmonkey1.jpg" alt="">
-        <div class="photo-caption">Character Model, Still</div>
+    <!-- ============================= -->
+    <!--        MATERIAL ARTWORK       -->
+    <!-- ============================= -->
+    <div class="photo-group">
+      <div class="photo-header">Material Artwork</div>
+
+      <div class="photo-subheader">Sketchbooking in Italy</div>
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/artwork3.jpg" alt="">
+          <div class="photo-caption">Statues</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/artwork4.jpeg" alt="">
+          <div class="photo-caption">Charcoal</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/artwork2.jpeg" alt="">
+          <div class="photo-caption">Mixed Materials</div>
+        </div>
       </div>
-      <div class="photo-item">
-        <img src="img/portfolio/artworkmonkey2.jpg" alt="">
-        <div class="photo-caption">Character Model, Motion</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/artworkmonkey3.jpg" alt="">
-        <div class="photo-caption">6 Models In Motion</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/artworkmonkey4.jpg" alt="">
-        <div class="photo-caption">Character's Face Features</div>
+
+      <div class="photo-subheader">Elephant Prints</div>
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="img/portfolio/artwork1.jpeg" alt="">
+          <div class="photo-caption">Print 1</div>
+        </div>
+        <div class="photo-item">
+          <img src="img/portfolio/artwork5.jpg" alt="">
+          <div class="photo-caption">Print 2</div>
+        </div>
       </div>
     </div>
+
   </div>
-
-  <div class="photo-group">
-    <div class="photo-header">Whispering Winds – A Graphic Novel</div>
-
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel0.jpg" alt="">
-        <div class="photo-caption">Cover Page</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 1.jpg" alt="">
-        <div class="photo-caption">Page 1</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 2.jpg" alt="">
-        <div class="photo-caption">Page 2</div>
-      </div>
-    </div>
-
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 3.jpg" alt="">
-        <div class="photo-caption">Page 3</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 4.jpg" alt="">
-        <div class="photo-caption">Page 4</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 5.jpg" alt="">
-        <div class="photo-caption">Page 5</div>
-      </div>
-    </div>
-
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 6.jpg" alt="">
-        <div class="photo-caption">Page 6</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 7.jpg" alt="">
-        <div class="photo-caption">Page 7</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 8.jpg" alt="">
-        <div class="photo-caption">Page 8</div>
-      </div>
-    </div>
-
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 9.jpg" alt="">
-        <div class="photo-caption">Page 9</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 10.jpg" alt="">
-        <div class="photo-caption">Page 10</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 11.jpg" alt="">
-        <div class="photo-caption">Page 11</div>
-      </div>
-    </div>
-
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 12.jpg" alt="">
-        <div class="photo-caption">Page 12</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 13.jpg" alt="">
-        <div class="photo-caption">Page 13</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 14.jpg" alt="">
-        <div class="photo-caption">Page 14</div>
-      </div>
-    </div>
-
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 15.jpg" alt="">
-        <div class="photo-caption">Page 15</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 16.jpg" alt="">
-        <div class="photo-caption">Page 16</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/Graphic_Novel 17.jpg" alt="">
-        <div class="photo-caption">Page 17</div>
-      </div>
-   </div>
-
-
-  <!-- ============================= -->
-  <!--        MATERIAL ARTWORK       -->
-  <!-- ============================= -->
-  <div class="photo-group">
-    <div class="photo-header">Material Artwork</div>
-
-    <div class="photo-subheader">Sketchbooking in Italy</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/artwork3.jpg" alt="">
-        <div class="photo-caption">Statues</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/artwork4.jpeg" alt="">
-        <div class="photo-caption">Charcoal</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/artwork2.jpeg" alt="">
-        <div class="photo-caption">Mixed Materials</div>
-      </div>
-    </div>
-
-    <div class="photo-subheader">Elephant Prints</div>
-    <div class="photo-row">
-      <div class="photo-item">
-        <img src="img/portfolio/artwork1.jpeg" alt="">
-        <div class="photo-caption">Print 1</div>
-      </div>
-      <div class="photo-item">
-        <img src="img/portfolio/artwork5.jpg" alt="">
-        <div class="photo-caption">Print 2</div>
-      </div>
-    </div>
-  </div>
-
 ---
