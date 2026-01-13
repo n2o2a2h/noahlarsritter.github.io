@@ -3,7 +3,7 @@ title: Filmography
 subtitle: A collection of my short films
 layout: default
 modal-id: 2
-date: 2024-07-20
+date: 2014-07-20
 thumbnail: filmography-thumbnail.jpg
 project-date: 2022–2024
 category: Film
