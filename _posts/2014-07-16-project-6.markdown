@@ -3,7 +3,7 @@ title: Other Projects
 subtitle: A collection of mixed media
 layout: default
 modal-id: 5
-date: 2019-07-16
+date: 2014-07-16
 img: null
 thumbnail: thumbnailother.jpg
 project-date: 2022–2024
