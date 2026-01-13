@@ -3,7 +3,7 @@ title: Photography
 subtitle: A collection of my photographs
 layout: default
 modal-id: 3
-date: 2024-07-19
+date: 2014-07-19
 thumbnail: photography-thumbnail.jpg
 project-date: 2022–2025
 category: Photography
