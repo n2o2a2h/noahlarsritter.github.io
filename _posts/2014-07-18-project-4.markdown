@@ -111,7 +111,7 @@ description: |
       </div>
     </div>
 
-
+</div>
   
   <!-- ============================================ -->
   <!--       DIGITAL ARTWORK & ANIMATION            -->
