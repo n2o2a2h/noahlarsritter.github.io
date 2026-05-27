@@ -13,27 +13,72 @@ title: Contact
         </h3>
       </div>
     </div>
+
     <div class="row">
       <div class="col-lg-12">
         <form id="contactForm" novalidate>
+          <!-- Honeypot: hidden from humans, often filled by bots -->
+          <div style="position:absolute; left:-9999px; top:-9999px; height:0; overflow:hidden;" aria-hidden="true">
+            <label for="website">Website</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+
           <div class="row">
             <div class="col-md-6">
               <div class="control-group form-group">
-                <input type="text" class="form-control" name="user_name" placeholder="Your Name *" required>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="user_name"
+                  placeholder="Your Name *"
+                  required
+                  minlength="2"
+                  maxlength="60"
+                  autocomplete="name"
+                >
               </div>
+
               <div class="control-group form-group">
-                <input type="email" class="form-control" name="user_email" placeholder="Your Email *" required>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="user_email"
+                  placeholder="Your Email *"
+                  required
+                  maxlength="120"
+                  autocomplete="email"
+                >
               </div>
+
               <div class="control-group form-group">
-                <input type="tel" class="form-control" name="user_phone" placeholder="Your Phone *" required>
+                <input
+                  type="tel"
+                  class="form-control"
+                  name="user_phone"
+                  placeholder="Your Phone *"
+                  required
+                  minlength="7"
+                  maxlength="25"
+                  autocomplete="tel"
+                >
               </div>
             </div>
+
             <div class="col-md-6">
               <div class="control-group form-group">
-                <textarea class="form-control" name="message" placeholder="Your Message *" required></textarea>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  placeholder="Your Message *"
+                  required
+                  minlength="15"
+                  maxlength="3000"
+                ></textarea>
               </div>
             </div>
+
             <div class="clearfix"></div>
+
             <div class="col-lg-12 text-center">
               <div id="form-status"></div>
               <button type="submit" class="btn btn-xl">Send Message</button>
@@ -50,15 +95,72 @@ title: Contact
 <script>
   emailjs.init("4Q4qmiBqsz_gWbxUV");
 
-  document.getElementById('contactForm').addEventListener('submit', function(event) {
+  const form = document.getElementById('contactForm');
+  const statusDiv = document.getElementById('form-status');
+  const formStartedAt = Date.now();
+
+  function isValidName(name) {
+    return /^[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ\s.'-]{1,59}$/.test(name.trim());
+  }
+
+  function isValidEmail(email) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.trim());
+  }
+
+  function isValidPhone(phone) {
+    const digits = phone.replace(/\D/g, '');
+    return digits.length >= 7 && digits.length <= 15;
+  }
+
+  function isLikelyHuman() {
+    const honeypot = document.getElementById('website').value.trim();
+    const timeElapsed = Date.now() - formStartedAt;
+
+    // Bots often submit instantly; humans usually take a few seconds.
+    return honeypot === '' && timeElapsed > 4000;
+  }
+
+  form.addEventListener('submit', function(event) {
     event.preventDefault();
-    const statusDiv = document.getElementById('form-status');
+
+    const name = form.user_name.value || '';
+    const email = form.user_email.value || '';
+    const phone = form.user_phone.value || '';
+    const message = form.message.value || '';
+
+    if (!isLikelyHuman()) {
+      statusDiv.innerHTML = '<span style="color:red;">Submission blocked.</span>';
+      return;
+    }
+
+    if (!isValidName(name)) {
+      statusDiv.innerHTML = '<span style="color:red;">Please enter a valid name.</span>';
+      return;
+    }
+
+    if (!isValidEmail(email)) {
+      statusDiv.innerHTML = '<span style="color:red;">Please enter a valid email.</span>';
+      return;
+    }
+
+    if (!isValidPhone(phone)) {
+      statusDiv.innerHTML = '<span style="color:red;">Please enter a valid phone number.</span>';
+      return;
+    }
+
+    if (message.trim().length < 15) {
+      statusDiv.innerHTML = '<span style="color:red;">Please write a longer message.</span>';
+      return;
+    }
+
     statusDiv.innerHTML = 'Sending…';
+
     emailjs.sendForm('service_xm6mdb8', 'template_2590aqr', this)
       .then(() => {
         statusDiv.innerHTML = '<span style="color:green;">Message sent successfully!</span>';
         this.reset();
-      }, (error) => {
+      })
+      .catch((error) => {
         console.error(error);
         statusDiv.innerHTML = '<span style="color:red;">Oops… something went wrong. Please try again later.</span>';
       });
